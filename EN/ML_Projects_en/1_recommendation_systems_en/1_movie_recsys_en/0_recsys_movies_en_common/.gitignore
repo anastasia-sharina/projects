@@ -1,0 +1,4 @@
+# This needs to be added to .gitignore so that .env never gets committed to the repository.
+
+.env
+*.env

@@ -1,0 +1,28 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy common files
+COPY common/requirements.txt .
+COPY common/db_connect.py .
+COPY common/.env.example .
+COPY common/.gitignore .
+
+# Copy all subprojects
+COPY ml/ ./ml/
+COPY dl/ ./dl/
+COPY ab/ ./ab/
+
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+
+# Folder selection argument (ml, dl, ab)
+ARG PROJECT=ml
+ENV PROJECT=${PROJECT}
+
+# File selection argument (app.py, service.py, service3.py)
+ARG SERVICE_FILE=app.py
+ENV SERVICE_FILE=${SERVICE_FILE}
+
+# Run the desired file in the desired folder
+CMD ["bash", "-c", "python $PROJECT/$SERVICE_FILE"]
