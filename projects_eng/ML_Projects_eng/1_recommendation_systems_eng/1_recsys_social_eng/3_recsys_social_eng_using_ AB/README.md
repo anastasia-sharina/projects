@@ -1,4 +1,4 @@
-# A/B Recommendation Service (3_recsys_movies_ru_using_AB)
+# A/B Recommendation Service
 
 Overview
 - This A/B service deterministically assigns users to control or test groups and returns personalized recommendations using two independent models (control / test).
