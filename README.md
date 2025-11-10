@@ -1,2 +1,2 @@
-#### Folder "projects_en" contains my projects in english.
-#### Папка "projects_ru" содержит мои проекты на русском языке.
+#### Folder "projects_eng" contains my projects in english.
+#### Папка "projects_rus" содержит мои проекты на русском языке.
