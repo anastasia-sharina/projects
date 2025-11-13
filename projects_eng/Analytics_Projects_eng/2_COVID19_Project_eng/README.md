@@ -62,7 +62,3 @@ The analysis is performed on two main datasets: `CovidDeaths` and `CovidVaccinat
 - Temporal trends in global cases and deaths.
 - Vaccination progress and its relation to population.
 - Identification of countries and continents most affected.
-
----
-
-**Feel free to use, adapt, or extend these queries for your own analysis or visualizations!**
