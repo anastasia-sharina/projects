@@ -35,6 +35,9 @@ The service provides an API for retrieving personalized recommendations via Fast
    - Implemented with FastAPI for online recommendations.  
    - Endpoint `/post/recommendations/` returns top-N posts for a given user based on the trained model.  
 
+## Results
+The service provides an API for retrieving personalized recommendations via FastAPI resulting in Hitrate@5 = 55%.
+
 ## Full Tech Stack
 
 - **Python 3.8+**  
