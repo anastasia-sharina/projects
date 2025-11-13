@@ -53,7 +53,3 @@ Key data wrangling steps are performed using SQL queries to ensure consistency, 
 - Complete property and owner address fields for location-based insights.
 - Standardized categorical variables.
 - Deduplicated dataset for accurate results.
-
----
-
-**This workflow demonstrates essential SQL data cleaning techniques for real-world housing datasets. Feel free to adapt or extend the queries for your own projects!**
